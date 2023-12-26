@@ -1,0 +1,22 @@
+/* Home.css */
+
+/* Container styling */
+div {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header (h2) styling */
+h2 {
+  font-size: 2.5rem;
+  color: #333; /* Change color as desired */
+  margin-bottom: 10px;
+}
+
+/* Paragraph (p) styling */
+p {
+  font-size: 1.2rem;
+  color: #666; /* Change color as desired */
+  line-height: 1.6;
+}

@@ -1,0 +1,47 @@
+/* Calculator.css */
+.calculator {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .calculator input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1.2em;
+  }
+  
+  .calculator .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .calculator .keypad button {
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 3px;
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .calculator .keypad button:hover {
+    background-color: orange;
+  }
+  
+  .calculator .result {
+    margin-top: 15px;
+  }
+  
+  .calculator .result p {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
